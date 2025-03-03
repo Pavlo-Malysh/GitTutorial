@@ -4,12 +4,16 @@
 
 1. git clone - копіює репозиторій(папку з файлами) на компютер
 2. git branch "branchName" - створює гілку з назвою "branchName"
+2. git switch -c name-your-branch - створює і відразу переходить на нову гілку з назвою "branchName"
+
 3. git checkout "branchName" - переходить на гілку з назвою "branchName"
 4. git checkout -b "branchName" - створюємо гілку з назвою "branchName" і переходимо на неї
 5. git add . - зберігаємо зміни в файлах
 6. git commit -m "commit message" - підписуємо збереженні зміни в файлах
 7. git push - відправляємо зміни на сайт github
 8. git pull - отримуємо останні зміни з сайту github
+git pull origin nameBranch - завантажує всі зміни з певної гілки до локальної nameBranch
+
 9. git status - показуємо статус проекту
 10. git branch - показуємо список гілок в проекті
 11. git branch -r - показуємо список гілок на сайті github
@@ -20,10 +24,13 @@
 16. git merge "banchName" - зливаємо гілку з назвою "branchName" в поточну гілку
 17. git merge --abort - відміняємо зливання гілок
 18. git branch -d branchName - видаляє гілку локально з проекту
+git branch -D branchName - видаляє примусова гілку локально з проекту
+
 19. git push origin --delete name - видаляє гілку з сайту github
 20. git diff - показує відрізки рядків між двома версіями файлу (між двома комітами)
 21. git log - показує історію комітів
 22. cd gitTutorial - переходимо в папку gitTutorial
+23. 
 
 Для того щоб вийти з режиму перегляду комітів використовуйте клавішу q (стосується команди №20 і №21)
 
